@@ -14,6 +14,7 @@ Detect faces from your personal images and create a dataset for face recognition
 1. Install miniconda
 
     `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64 sh -o Miniconda3-latest-Linux-x86_64.sh`
+
     `bash Miniconda3-latest-Linux-x86_64.sh`
     
 2. For GPU based runtime
@@ -26,6 +27,7 @@ Detect faces from your personal images and create a dataset for face recognition
         [cuDNN SDK](https://developer.nvidia.com/cudnn)
 
 3. Create a new env using miniconda
+
     `conda create --name newenv python=3.9`
 
 4. Make and install dlib [From [source](https://github.com/davisking/dlib) is prefered]
