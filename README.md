@@ -20,10 +20,13 @@ Detect faces from your personal images and create a dataset for face recognition
 2. For GPU based runtime
 
     1. Install Nvidia drivers
+
         [Nvidia Drivers](https://www.nvidia.com/drivers)
     2. Install CUDA toolkit (Recommended version : 11.2)
+
         [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)
     3. Install cuDNN SDK (Recommended version : 8.1.0)
+    
         [cuDNN SDK](https://developer.nvidia.com/cudnn)
 
 3. Create a new env using miniconda
