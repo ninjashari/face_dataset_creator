@@ -42,3 +42,6 @@ Detect faces from your personal images and create a dataset for face recognition
     2. Command - `pip install face-recognition`
     3. [pypi link](https://pypi.org/project/face-recognition/)
 
+6. Run `python app.py`
+
+## Use at your own risk!
