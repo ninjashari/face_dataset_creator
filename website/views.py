@@ -5,6 +5,8 @@ from flask import Blueprint, render_template, request
 
 views = Blueprint('views', __name__)
 
+dest_dir = "./final-dataset"
+
 @views.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
@@ -15,6 +17,12 @@ def home():
             print(images_list)
             # Run face detection to get an unlabelled face dataset
             detect.create_unlabelled_face_dataset(images_list)
+            # Label face images
+            label.label_face()
+
+            # Create csv file
+            rename.rename_files(dest_dir)
+            create_csv.create_csv(dest_dir)
         else :
             print(f'Error :: Path does not exist or invalid')
     return render_template('home.html')
