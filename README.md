@@ -49,6 +49,6 @@ Detect faces from your personal images and create a dataset for face recognition
     4. `pip install Flask`
 
 7. Run 
-    `python app.py`
+    `python main.py`
 
 ## Use at your own risk!
