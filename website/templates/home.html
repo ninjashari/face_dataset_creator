@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<form method="post">
+  <h3 align="center">Create Face Dataset</h3>
+  <div class="form-group">
+    <label for="folder_path">Enter a folder path: </label>
+    <input type="text" name="folder_path" id="folder_path" />
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}

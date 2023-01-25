@@ -100,4 +100,4 @@ def create_unlabelled_face_dataset(image_path_list):
                 count += 1
                 create_new_face(face_locations[i], image_file, face_name, face_encodings[i])
         
-        print("I found {} face(s) in this image.".format(len(face_locations)))
+        print("Found {} face(s) in this image.".format(len(face_locations)))

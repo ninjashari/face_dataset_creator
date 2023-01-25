@@ -17,7 +17,7 @@ Detect faces from your personal images and create a dataset for face recognition
 
     `bash Miniconda3-latest-Linux-x86_64.sh`
     
-2. For GPU based runtime
+2. For GPU based runtime [Optional for non CUDA runtime]
 
     1. Install Nvidia drivers
 
@@ -34,14 +34,21 @@ Detect faces from your personal images and create a dataset for face recognition
     `conda create --name newenv python=3.9`
 
 4. Make and install dlib [From [source](https://github.com/davisking/dlib) is prefered]
-    1. Use gcc-10 to build dlib with CUDA Toolkit v11.2
-    2. Set appropriate flags for dlib to use CUDA
+    1. Use gcc-10 to build dlib with CUDA Toolkit v11.2 [Optional for non CUDA runtime]
+    2. Set appropriate flags for dlib to use CUDA [Optional for non CUDA runtime]
 
 5. Install Face Recognition library
     1. Link - [face_recognition](https://github.com/ageitgey/face_recognition)
     2. Command - `pip install face-recognition`
     3. [pypi link](https://pypi.org/project/face-recognition/)
 
-6. Run `python app.py`
+6. Install libraries
+    1. `pip install numpy pandas`
+    2. `pip install opencv-python matplotlib`
+    3. `pip install flask-sqlalchemy`
+    4. `pip install Flask`
+
+7. Run 
+    `python app.py`
 
 ## Use at your own risk!
