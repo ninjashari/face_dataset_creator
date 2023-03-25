@@ -1,5 +1,6 @@
 __pycache__/
 face-dataset/
 final-dataset/
+instance/
 
 face_dataset.csv
