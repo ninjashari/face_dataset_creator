@@ -47,6 +47,7 @@ Detect faces from your personal images and create a dataset for face recognition
     2. `pip install opencv-python matplotlib`
     3. `pip install flask-sqlalchemy`
     4. `pip install Flask`
+    5. `conda install -c conda-forge gcc=12.1.0`
 
 7. Run 
     `python main.py`
