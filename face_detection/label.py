@@ -59,7 +59,7 @@ def show_images(dir_path, image_list):
     fig = plt.figure(figsize=(10,10))
     
     # set the timer interval 2000 milliseconds
-    timer = fig.canvas.new_timer(interval = 2000)
+    timer = fig.canvas.new_timer(interval = 5000)
     timer.add_callback(plt.close)
     
     for i in range(n):
